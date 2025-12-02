@@ -21,3 +21,4 @@ def train_model_process(model, train_dataloader, val_dataloader, num_epochs):
     # 复制当前模型的参数  
     best_model_wts = copy.deepcopy(model.state_dict())
 ```
+# 训练模型 反向传播的过程
